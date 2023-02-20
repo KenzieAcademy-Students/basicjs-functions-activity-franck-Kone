@@ -13,6 +13,7 @@
 
 let getNumberFive = function() {
   // Your code here
+  return 5;
 }
 
 // ----------------------------------------------------------------------------------------------
@@ -26,6 +27,8 @@ let getNumberFive = function() {
 
 let add = function(a, b) {
   // Your code here
+  let sum = a + b;
+  return sum;
 }
 
 // ----------------------------------------------------------------------------------------------
@@ -38,6 +41,8 @@ let add = function(a, b) {
 
 let multiply = function(x, y, z) {
   // Your code here
+  let product = x * y * z;
+  return product;
 }
 
 // ----------------------------------------------------------------------------------------------
@@ -49,6 +54,7 @@ let multiply = function(x, y, z) {
 
 let concatenate = function(message, text) {
   // Your code here
+  return message + text;
 }
 
 // ----------------------------------------------------------------------------------------------
@@ -69,6 +75,8 @@ let concatenate = function(message, text) {
 
 let areaOfTriangle = function(base, height) {
   // Your code here
+  let area = (base * height) / 2;
+  return "The total area of the triangle is " + area;
 }
 
 /* 
